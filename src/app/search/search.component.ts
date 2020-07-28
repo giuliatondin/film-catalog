@@ -69,4 +69,8 @@ export class SearchComponent implements OnInit {
     })
   }
 
+  gotoDetails(data){
+    this.router.navigate(['/details', data.imdbID]);
+  }
+
 }
