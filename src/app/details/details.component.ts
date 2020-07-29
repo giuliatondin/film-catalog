@@ -11,6 +11,15 @@ export class DetailsComponent implements OnInit {
   value: string;
   data: any;
 
+  logo = {
+    img: './assets/imgs/imdb-logo.png',
+    img_alt: 'Logo IMDB'
+  }
+  link = {
+    alt: 'Clique para voltar ao inicio',
+    title: 'Voltar'
+  }
+
   constructor(private route: ActivatedRoute, private appService: AppService) { }
 
   ngOnInit() {
