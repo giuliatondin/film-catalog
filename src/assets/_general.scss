@@ -34,3 +34,20 @@ body {
         height: 40px;
     }        
 }
+
+.colorText__primary {
+    color: $primary-color;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column;
+}
+
+.ml-3 {
+    margin-left: 1rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}

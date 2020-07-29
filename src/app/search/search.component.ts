@@ -23,7 +23,7 @@ export class SearchComponent implements OnInit {
     img_alt: 'Logo IMDB'
   }
   input = {
-    placeholder: 'Digite o nome do filme',
+    placeholder: 'Search movie by name...',
     type: 'text',
     autocomplete: 'off'
   }

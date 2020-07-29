@@ -20,3 +20,22 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+// .col {
+//     @media (min-width: $breakpoint-md){
+//         &-md {
+//             &-3 {
+//                 flex: 0 0 auto;
+//                 width: 25%;
+//             }
+//             &-4 {        
+//                 flex: 0 0 auto;
+//                 width: 33.333333%;
+//             }
+//             &-5 {
+//                 flex: 0 0 auto;
+//                 width: 41.666667%;
+//             }
+//         }
+//     }
+// }
