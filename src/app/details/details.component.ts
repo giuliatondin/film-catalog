@@ -10,7 +10,6 @@ import { AppService } from '../app.service';
 export class DetailsComponent implements OnInit {
   value: string;
   data: any;
-
   logo = {
     img: './assets/imgs/imdb-logo.png',
     img_alt: 'Logo IMDB'
@@ -19,6 +18,7 @@ export class DetailsComponent implements OnInit {
     alt: 'Click to back to home',
     title: 'Home'
   }
+
 
   constructor(private route: ActivatedRoute, private appService: AppService) { }
 

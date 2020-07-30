@@ -1,13 +1,23 @@
 @import '../../styles.scss';
 .search {
     &__box {
-        @media (max-width: $breakpoint-xs){
+        background-color: $secondary-color;
+        -webkit-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        @media (max-width: $breakpoint-xs) {
             .row {
                 flex-flow: column;
             }
         }
     }
     &__logo {
+        width: 110px;
+        height: 40px;
         @media (max-width: $breakpoint-xs) {
             margin: 0 auto;
             margin-bottom: 10px;
@@ -89,9 +99,6 @@
         }
         @media (min-width: $breakpoint-lg) {
             width: 220px;
-        }
-        &:hover {
-            cursor: pointer;
         }
         &--img {
             object-fit: cover;
