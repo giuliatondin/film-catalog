@@ -16,8 +16,8 @@ export class DetailsComponent implements OnInit {
     img_alt: 'Logo IMDB'
   }
   link = {
-    alt: 'Clique para voltar ao inicio',
-    title: 'Voltar'
+    alt: 'Click to back to home',
+    title: 'Home'
   }
 
   constructor(private route: ActivatedRoute, private appService: AppService) { }

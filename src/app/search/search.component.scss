@@ -67,9 +67,6 @@
         padding-bottom: 30px;
         .row {
             justify-content: center;
-            @media (min-width: $breakpoint-md) {
-                justify-content: space-between;
-            }
         }
     }
     &__card {
@@ -87,7 +84,8 @@
         }
         @media (min-width: $breakpoint-md) {
             width: 230px;
-            margin-right: 0px;
+            margin-right: 5px;
+            margin-left: 5px;
         }
         @media (min-width: $breakpoint-lg) {
             width: 220px;

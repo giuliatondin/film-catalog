@@ -59,14 +59,17 @@
                             <span class="movieDetails__rateBlock"> {{data.imdbVotes}} </span>
                             <div class="flex-column">
                                 <span class="subtitle"> Votes </span>
-                                <span> From <a href="https://www.metacritic.com/"> www.imdb.com </a> </span>
+                                <span> From <a href="https://www.metacritic.com/"> imdb.com </a> </span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="movieDetails__box movieDetails__box--right col-md-3">
-
+                <div class="aditionalInfos"> <span class="aditionalInfos__title"> Country: </span> {{data.Country}} </div>
+                <div class="aditionalInfos"> <span class="aditionalInfos__title"> Release date: </span> {{data.Released}} </div>
+                <div class="aditionalInfos"> <span class="aditionalInfos__title"> Awards: </span> {{data.Awards}} </div>
+                <img src="../../assets/imgs/details-img.svg" alt="Imagem decorativa do bloco" class="movieDetails__box--img">
             </div>
         </div>
     </div>
