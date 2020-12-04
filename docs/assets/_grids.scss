@@ -1,0 +1,22 @@
+.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    @media (min-width: $breakpoint-md) {
+        width: 750px;
+    }
+    @media (min-width: $breakpoint-lg) {
+        width: 970px;
+    }
+    @media (min-width: $breakpoint-xl) {
+        width: 1170px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
