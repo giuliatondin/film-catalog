@@ -39,6 +39,9 @@
             @media (min-width: $breakpoint-xs) {
                 width: 300px;
             }
+            &:focus {
+                outline: none !important;
+            }
         }
         button {
             border: none;
